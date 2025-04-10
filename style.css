@@ -1,6 +1,35 @@
 
 /*# sourceMappingURL=style.css.map */
 
+ html { 
+  font-size: 62.5%;
+ }
+
+ body {
+  font-size: 1.6rem;
+  letter-spacing: .05em;
+  color: #171717;
+  font-family: "Noto serif", "Noto Serif JP", serif;
+ }
+
+  img {
+  width: 100%;
+  vertical-align: bottom;
+  }
+
+  .section__wrapper {
+  padding: 100px 0 70px;
+  }
+
+  .section__title  {
+    max-width: 1000px;
+    color: #282f35;
+    font-size: 6rem;
+    font-style: italic;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+  }
+
 * {
     margin: 0;
     padding: 0; 
@@ -14,12 +43,24 @@
      padding: 0 30px;
    }
 
+
+   .section__wrapper__1{
+    height: 700px;
+    background-image: url(../img/fv-bgi_02@2x.jpg);
+   }
+   
    .header__flex {
      display: flex;
-     height:60px;
-     align-items: center;
-     background-image: url();
+     height: 700px;
+     align-items: top;
+     background-image: url(../img/fv-bgi_02@2x.jpg);
    }
+
+  .section__wrapper__1 h2 {
+    align-items: flex-end;
+  }
+
+
 
    .header__flex nav {
      margin-left: auto;
