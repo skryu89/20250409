@@ -18,6 +18,7 @@
      display: flex;
      height:60px;
      align-items: center;
+     background-image: url();
    }
 
    .header__flex nav {
@@ -31,3 +32,4 @@
    .header__flex ul li {
      margin-left: 20px;
    }
+
