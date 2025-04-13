@@ -87,27 +87,29 @@
      padding: 0 30px;
    }
 
-
-   .section__wrapper__1{
-    height: 700px;
-    background-image: url(../img/fv-bgi_02@2x.jpg);
-   }
-   
    .header__flex {
      display: flex;
      justify-content: space-between;
      align-items: center;
      max-width: 1200px;
      margin: 0 auto;
-     background-color: brown;
    }
 
-   .header a {
+   .header__flex a {
      color: #fff;
      text-decoration: none;
      transition: .3s;
      font-weight: bold;
      font-style: italic;
+   }
+
+   .header__flex a:hover {
+     opacity: .7;
+     transition: .3s;
+   }
+
+   .site-title {
+    font-size: 2.6rem;
    }
 
    .burger-btn {
@@ -118,8 +120,6 @@
     align-items: flex-end;
   }
 
-
-
    .header__flex nav {
      margin-left: auto;
    }
@@ -127,8 +127,47 @@
    .header__flex ul {
      display: flex;
    }
+
    
    .header__flex ul li {
      margin-left: 20px;
+     color: #fff;
+     padding-top: 20px;
+   }
+
+   /* ---------------------- */
+   /* first view
+   /* ---------------------- */
+
+   .section__wrapper__1 {
+    height: 100vh;
+    min-height: 550px;
+    position: relative;
+    background: url(../img/fv-bgi_01@2x.jpg);
+    background-size: cover;
+    background-position: center;
+   }
+
+   .purpose__1 {
+    margin-left: 120px;
+    margin-top: 380px;
+    color:#fff;
+    font-size: 7rem;
+    font-weight: bold;
+    font-family: noto------;
+   }
+
+   .purpose__2 {
+    font-size: 7rem;
+    margin-left: 120px;
+    margin-bottom: 115px;
+    color: #fff;
+    font-size: 4rem;
+    font-family: sans-serif;
+   }
+
+   .jp-copy {
+    font-size: 4rem;
+    text-align: center;
    }
 
