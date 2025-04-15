@@ -145,47 +145,6 @@
      background-position: center;
    }
 
-   .information__box {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-   }
-
-   .service__box {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 0px;
-    height: 300px;
-    position: relative;
-   }
-
-   .Hearing {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    transform: translate(-50%,-50%)
-   }
-
-   .Planning {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%)
-   }
-
-   .Direction {
-    position: absolute;
-    left: 100%;
-    top: 100%;
-    transform: translate(-50%,-50%)
-   }
-
-   .section__wrapper__5 {
-    background: url(../img/fv-bgi_01@2x.jpg);
-    background-repeat: no-repeat;
-   }
-
-
-
    /* ---------------------- */
    /* first view
    /* ---------------------- */
@@ -266,7 +225,7 @@
    .works-list {
     max-width: 1000px;
     margin: 0 auto 80px;
-    padding: 0 50px;
+    padding: 0;
     display: flex;
     justify-content: space-between;
    }
@@ -289,7 +248,46 @@
    /* Service
    /* ---------------------- */
 
-   
+   .service-item {
+    display: flex;
+   }
+
+   .service-item {
+    width: 33.3%;
+   }
+
+   .service-item .service1 {
+    background-image: url(../img/service-img01@2x.jpg);
+   }
+
+   .service-item .service2 {
+    background-image: url(../img/service-img02@2x.jpg);
+   }
+
+   .service-item .service3 {
+    background-image: url(../img/service-img03@2x.jpg);
+   }
+
+   .service-item a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 320px;
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: italic;
+    transition: .3s;
+   }
+
+   .service-item a:hover {
+    background-color: rgba(40, 47, 53, 7);
+    transition: .3s;
+   }
+
+
+
 
 
 
