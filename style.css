@@ -118,6 +118,16 @@
      padding: 0 30px;
    }
 
+   header {
+    padding: 19px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 100%;
+   }
+
    .header__flex {
      display: flex;
      justify-content: space-between;
@@ -168,19 +178,12 @@
      padding-top: 20px;
    }
 
-   .section__wrapper__3 {
-     height: 125vh;
-     min-height: 550px;
-     background: url(../img/fv-bgi_02@2x.jpg);
-     background-size: cover;
-     background-position: center;
-   }
 
    /* ---------------------- */
    /* first view
    /* ---------------------- */
 
-   .section__wrapper__1 {
+   .fv {
     height: 100vh;
     min-height: 550px;
     position: relative;
@@ -189,23 +192,25 @@
     background-position: center;
    }
 
-   .purpose__1 {
+   .fv-content {
+    position: absolute;
     margin-left: 120px;
-    margin-top: 380px;
-    color:#fff;
+    margin-top: 400px;
+    color: #fff;
     font-size: 7rem;
     font-weight: bold;
-    font-family: noto------;
+   }
+
+   .purpose__1 {
+    font-size: 7rem;
+    margin-bottom: 31px;
    }
 
    .purpose__2 {
-    font-size: 7rem;
-    margin-left: 120px;
-    margin-bottom: 115px;
-    color: #fff;
     font-size: 4rem;
-    font-family: sans-serif;
+    text-align: center;
    }
+
 
    .concept-lead {
     font-size: 4rem;
@@ -250,6 +255,14 @@
    /* ---------------------- */
    /* works 
    /* ---------------------- */
+
+   .section__wrapper__3 {
+    height: 125vh;
+    min-height: 550px;
+    background: url(../img/fv-bgi_02@2x.jpg);
+    background-size: cover;
+    background-position: center;
+  }
 
    .bg-works {
     background-image: url(../img/works-bgi@2x.jpg);
