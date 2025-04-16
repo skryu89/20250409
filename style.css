@@ -66,10 +66,12 @@
     padding: 0 50px;
   }
 
-  .section-bottom {
+  .section-bottom1 {
     max-width: 1200px;
     font-size: 9rem;
+    text-align: right;
     font-weight: 400px;
+    color: #32353A;
     opacity: .05;
   }
 
@@ -280,9 +282,13 @@
     padding: 25px 20px;
    }
 
-   .section-bottom {
-    margin-bottom: 80px;
-   }
+   .section-bottom2 {
+    max-width: 1200px;
+    font-size: 9rem;
+    font-weight: 400px;
+    color: #32353A;
+    opacity: .05;
+  }
 
    /* ---------------------- */
    /* Service
@@ -326,6 +332,15 @@
     transition: .3s;
    }
 
+   .section-bottom3 {
+    max-width: 1200px;
+    font-size: 9rem;
+    font-weight: 400px;
+    text-align: right;
+    color: rgb(222, 217, 217);
+    opacity: .05;
+  }
+
    /* ---------------------- */
    /* Contact
    /* ---------------------- */
@@ -336,12 +351,21 @@
     background-position: center;
    }
 
-   .contact-text {
+   .section-text {
     text-align: center;
     color: #fff;
     font-size: 2rem;
     margin-bottom: 40px;
+    text-align: center;
    }
+
+   .section-bottom4 {
+    max-width: 1200px;
+    font-size: 9rem;
+    font-weight: 400px;
+    color: rgb(222, 217, 217);
+    opacity: .05;
+  }
 
    /* ---------------------- */
    /* footer
