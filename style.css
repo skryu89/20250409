@@ -127,6 +127,7 @@
      align-items: center;
      max-width: 1200px;
      margin: 0 auto;
+     
    }
 
    .header__flex a {
@@ -144,6 +145,7 @@
 
    .site-title {
     font-size: 2.6rem;
+    margin-top: 20px;
    }
 
    .burger-btn {
@@ -160,6 +162,7 @@
 
    .header__flex ul {
      display: flex;
+     gap: 50px;
    }
 
    
