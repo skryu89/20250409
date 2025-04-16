@@ -27,7 +27,9 @@
     font-size: 6rem;
     font-style: italic;
     margin: 0 auto 80px;
-    padding: 0 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .section__title2,.section__title4 {
@@ -36,7 +38,7 @@
     font-size: 6rem;
     font-style: italic;
     margin: 0 auto 80px;
-    padding: 0 20px;
+    padding: 50px 50px;
     text-align: right;
   }
 
@@ -66,14 +68,6 @@
     padding: 0 50px;
   }
 
-  .section-bottom1 {
-    max-width: 1200px;
-    font-size: 9rem;
-    text-align: right;
-    font-weight: 400px;
-    color: #32353A;
-    opacity: .05;
-  }
 
   .button {
     display: block;
@@ -127,7 +121,6 @@
      align-items: center;
      max-width: 1200px;
      margin: 0 auto;
-     
    }
 
    .header__flex a {
@@ -173,9 +166,8 @@
    }
 
    .section__wrapper__3 {
-     height: 100vh;
+     height: 110vh;
      min-height: 550px;
-     position: relative;
      background: url(../img/fv-bgi_02@2x.jpg);
      background-size: cover;
      background-position: center;
@@ -212,12 +204,6 @@
     font-family: sans-serif;
    }
 
-   .jp-copy {
-    font-size: 4rem;
-    text-align: center;
-   }
-
-
    .concept-lead {
     font-size: 4rem;
     text-align: center;
@@ -246,6 +232,16 @@
     max-width: 440px;
     margin-top: 65px;
     margin-left: 120px;
+  }
+
+  .section-bottom1 {
+    max-width: 1200px;
+    margin-bottom: 80px;
+    font-size: 9rem;
+    text-align: right;
+    font-weight: 400px;
+    color: #32353A;
+    opacity: .05;
   }
 
    /* ---------------------- */
@@ -288,8 +284,8 @@
    .section-bottom2 {
     max-width: 1200px;
     font-size: 9rem;
-    font-weight: 400px;
-    color: #32353A;
+    font-weight: 400;
+    color: rgb(4, 4, 4);
     opacity: .05;
   }
 
@@ -337,10 +333,12 @@
 
    .section-bottom3 {
     max-width: 1200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-size: 9rem;
     font-weight: 400px;
     text-align: right;
-    color: rgb(222, 217, 217);
+    color: rgb(32, 32, 32);
     opacity: .05;
   }
 
@@ -366,7 +364,7 @@
     max-width: 1200px;
     font-size: 9rem;
     font-weight: 400px;
-    color: rgb(222, 217, 217);
+    color: rgb(244, 233, 233);
     opacity: .05;
   }
 
