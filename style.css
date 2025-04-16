@@ -68,6 +68,10 @@
     padding: 0 50px;
   }
 
+  .link-btn {
+    text-decoration: none;
+  }
+
 
   .button {
     display: block;
@@ -80,7 +84,6 @@
     text-align: center;
     color: #171717;
     font-weight: bold;
-    text-decoration: none;
     transition: .3s;
   }
 
