@@ -516,11 +516,13 @@
    .purpose__1 {
     font-size: 9.8vw;
     white-space: nowrap;
-    margin-left: -200px;
+    margin-left: -140px;
    }
 
    .purpose__2 {
+    white-space: nowrap;
     font-size: 8vw;
+    margin-left: -140px;
    }
 
    /* ---------------------- */
