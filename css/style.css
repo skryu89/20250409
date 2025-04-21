@@ -126,6 +126,7 @@ html {
     z-index: 1;
     box-sizing: border-box;
     width: 100%;
+    transition: .3s;
    }
 
    .header__flex {
@@ -156,6 +157,14 @@ html {
 
    .burger-btn {
     display: none;
+   }
+
+   .header.fixed {
+    position: fixed;
+    background-color: #282f35;
+    padding: 30px;
+    width: 100%;
+    transition: .3s;
    }
 
   .section__wrapper__1 h2 {
