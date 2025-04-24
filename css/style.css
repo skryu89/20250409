@@ -159,13 +159,14 @@ html {
     display: none;
    }
 
-   .header.fixed {
+   .header__flex.fixed {
     position: fixed;
     background-color: #282f35;
     padding: 30px;
     width: 100%;
     transition: .3s;
    }
+
 
   .section__wrapper__1 h2 {
     align-items: flex-end;
@@ -187,13 +188,6 @@ html {
      padding-top: 20px;
    }
 
-   .header.fixed {
-    position: fixed;
-    background-color: #282f35;
-    padding: 30px;
-    width: 100%;
-    transition: .3s;
- }
 
 
    /* ---------------------- */
@@ -201,18 +195,24 @@ html {
    /* ---------------------- */
 
    .fv {
+    position: relative;
     height: 100vh;
     min-height: 550px;
-    position: relative;
-    background: url(../img/fv-bgi_01@2x.jpg);
     background-size: cover;
     background-position: center;
+   }
+
+
+   .fv img {
+    height: 100vh;
+    min-height: 550px;
+    object-fit: cover;
    }
 
    .fv-content {
     position: absolute;
     margin-left: 120px;
-    margin-top: 400px;
+    margin-top: -400px;
     color: #fff;
     font-size: 7rem;
     font-weight: bold;
@@ -237,6 +237,10 @@ html {
 
    .sp-br {
     display: none;
+   }
+
+   .slick-arrow {
+    display: none !important;
    }
 
 
@@ -497,11 +501,31 @@ html {
     height: 3px;
     width: 30px;
     background-color: #fff;
+    transition: .3s;
    }
 
    .bar_top,.bar_mid {
     margin-top: 10px;
     margin-bottom: 10px;
+   }
+
+   .burger-btn.cross .bar_top {
+    transform: rotate(45deg) translate(8px,8px);
+    transition: .3s;
+   }
+
+   .burger-btn.cross .bar_mid {
+    opacity: 0;
+    transition: .3s;
+   }
+
+   .burger-btn.cross .bar_bottom {
+    transform: rotate(-45deg) translate(8px,-8px);
+    transition: .3s;
+   }
+
+   body.noscroll {
+    overflow: hidden;
    }
 
    button {
